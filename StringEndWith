@@ -1,0 +1,19 @@
+package com.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Testing {
+
+    public static void main(String[] args) {
+      
+    	List<String> names= new ArrayList<>();
+    	names.add("khyathi");
+    	names.add("anusha");
+    	names.add("jyothi");
+    
+    	names.stream().filter(name->name.endsWith("i")).forEach(System.out::println);
+   
+    }
+    
+}
